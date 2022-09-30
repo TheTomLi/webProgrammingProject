@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden;">
+    <head>
+        <title>CSC309 Personal Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>Hello Visitors!</div>
+        <div class="flex-container">
+            <div id="leftgrid">
+                <header>
+                    <h1>Wenzhuoyi.Li</h1>
+                    <h2>liwenzh3</h2>
+                </header>
+                <ul>
+                    <li>A1 is worth 10%.</li>
+                    <li>A2 is worth 20%.</li>
+                    <li>A3 is worth 15%.</li>
+                </ul>
+                <details>
+                    <summary>Fact</summary>
+                    <p>I'm a <s>robot</s> <u>human</u>!</p>
+                </details>
+                <table>
+                    <tr>
+                        <th>Course</th>
+                        <th>Year</th>
+                        <th>Semester</th>
+                        <th>Assignments</th>
+                    </tr>
+                    <tr>
+                        <td>CSC309</td>
+                        <td>2022</td>
+                        <td>Fall</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CSC209</td>
+                        <td>2022</td>
+                        <td>Summer</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                </table> <br/><br/>
+                <form>
+                    <label for="feedbackbox">Feedback</label>
+                    <textarea id="feedbackbox" name="feedbackbox" rows="5" cols="50" placeholder="Enter your feedback here" required></textarea><br/><br/>
+                    
+                    <label for="emailbox">Email</label>
+                    <input type="email" id="emailbox" name="emailbox" required><br/><br/>
+                    
+                    <label for="filebox">Attachment</label>
+                    <input type="file" id="filebox" name="filebox" required><br/>
+        
+                    <input type="checkbox" id="agreement" name="agreement" value="agree" required>
+                    <label for="agreement">You agree to receive emails from me</label><br/>
+                    <button id="sendFeedback">Send Feedback</button>
+                </form>
+            </div>
+            <div id="rightgrid">
+                <object data="https://csc309.teach.cs.toronto.edu/a1/20211_CSC309H5S_LEC9102.pdf"></object> <br/>
+            </div>
+        </div>
+        <footer>
+            <p><a href="mailto:tommot.li@mail.utoronto.ca?subject=Bug%20Found&body=I%20found%20the%20following%20bug%20on%20your%20website">tommot.li@mail.utoronto.ca</a></p>
+        </footer>
+    </body>
+</html>
